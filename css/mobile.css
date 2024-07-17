@@ -1,0 +1,321 @@
+@media screen and (max-width: 767px) {
+     .nav-section {
+          width: 90%;
+          border-bottom: 1px solid var(--theme-secondary);
+     }
+
+     #logo {
+          font-size: 2rem;
+     }
+
+     #menu-bar {
+          display: block;
+     }
+
+     #menu-bar img {
+          width: 2.2rem;
+          height: 2.2rem;
+     }
+     #hero {
+          padding-top: 2rem;
+          width: 90%;
+          height: 800px;
+          background-size: 25rem;
+          background-position: bottom center;
+     }
+     .hero-child {
+          width: 100%;
+          justify-content: left;
+          align-items: center;
+          text-align: center;
+     }
+
+     .intro {
+          font-size: 1.3rem;
+     }
+
+     .name {
+          font-size: 2.5rem;
+          width: 70%;
+          background: linear-gradient(to right, var(--theme-primary), var(--off-white));
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          margin-bottom: 1.2rem;
+     }
+
+     .developer {
+          font-size: 1.1rem;
+          background: linear-gradient(to right, var(--theme-primary), var(--off-white));
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+     }
+
+     .content {
+          font-size: 1rem;
+          margin-bottom: 2rem;
+     }
+
+     .btn-resume {
+          width: 150px;
+          height: 50px;
+          font-size: 1rem;
+     }
+
+     .about-child {
+          width: 90%;
+          height: 60vh;
+     }
+
+     .about-me {
+          width: 100%;
+     }
+
+     .about-me div {
+          font-size: 2.5rem;
+     }
+
+     .about-me p {
+          font-size: 1rem;
+     }
+     .education {
+          padding-top: 4rem;
+          width: 90%;
+     }
+     .education img {
+          width: 2.5rem;
+     }
+
+     .education span {
+          font-size: 2.5rem;
+     }
+
+     .academics-details {
+          padding: 2rem 0 4rem;
+          width: 80%;
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 1.2rem;
+     }
+
+     .academics-child {
+          display: grid;
+          grid-template-columns: 1fr 5fr;
+          gap: 1rem;
+          padding: 1.5rem 2rem;
+     }
+
+     .education-details p {
+          text-align: start;
+          font-size: 0.8rem;
+          margin-left: 0;
+     }
+
+     .details-one {
+          text-align: start;
+          font-size: 1.1rem;
+     }
+
+     .details-two {
+          text-align: start;
+          font-size: 0.8rem;
+     }
+
+     .education-logo img {
+          width: 4rem;
+          height: 4rem;
+     }
+
+     #skills {
+          width: 90%;
+          padding: 4rem 0;
+     }
+     .skills-details {
+          width: 100%;
+     }
+
+     .skills {
+          font-size: 2.5rem;
+     }
+
+     .skills-list ul li {
+          font-size: 2rem;
+     }
+
+     .skills-para {
+          font-size: 0.8rem;
+     }
+     .skills-sub-para {
+          width: 100%;
+          font-size: 0.9rem;
+     }
+     .skills-sub-para i {
+          font-size: 0.8rem;
+     }
+
+     #projects {
+          padding: 4rem 0;
+     }
+
+     .projects {
+          width: 90%;
+     }
+
+     .our-project {
+          font-size: 2.5rem;
+     }
+     .more-project {
+          display: none;
+     }
+
+     .right-arrow {
+          display: block;
+          font-size: 2rem;
+          color: var(--theme-primary);
+     }
+
+     .cards {
+          width: 80%;
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 1.2rem;
+     }
+
+     #services {
+          width: 90%;
+          padding: 4rem 0;
+     }
+     .services {
+          font-size: 2.5rem;
+     }
+
+     .service-card {
+          width: 90%;
+          margin: auto;
+          display: grid;
+          grid-template-columns: 1fr;
+     }
+
+     .service-card-grp {
+          padding: 3rem;
+     }
+
+     .service-card-grp img {
+          width: 3rem;
+     }
+     .service-card-grp div {
+          font-size: 1rem;
+     }
+
+     #contactUs {
+          width: 90%;
+          margin: auto;
+          padding: 1rem 0 4rem;
+     }
+
+     #contactUs p {
+          font-size: 1rem;
+     }
+
+     .contact {
+          display: grid;
+          grid-template-columns: 100%;
+          margin-top: 2rem;
+     }
+     .contact-me {
+          padding: 2.5rem 1.5rem;
+          display: grid;
+          grid-template-columns: 48% 48%;
+          gap: 1rem;
+          border-radius: 20px;
+     }
+     .input-txt,
+     .textarea {
+          padding: 0.8rem;
+          font-size: 0.8rem;
+     }
+     .contact-map {
+          display: none;
+     }
+     .submit-btn {
+          width: 160px;
+          height: 50px;
+          font-size: 0.8rem;
+     }
+
+     footer {
+          width: 90%;
+     }
+
+     .footer-child {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 2.5rem;
+          display: relative;
+     }
+
+     .footer-logo {
+          font-size: 30px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+     }
+
+     .footer-list {
+          list-style: none;
+     }
+     .footer-list a {
+          font-size: 0.8rem;
+     }
+
+     .footer-middle {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 5rem;
+     }
+
+     .links-address {
+          width: 250px;
+     }
+     .footer-address i {
+          height: 40px;
+          width: 40px;
+     }
+
+     .links-address p {
+          font-size: 0.8rem;
+     }
+
+     .links-address a {
+          font-size: 0.9rem;
+     }
+
+     .footer-end {
+          font-size: 0.8rem;
+     }
+
+     .social-iconn {
+          display: block;
+     }
+
+     .social-iconn ul {
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          margin-right: 0.5rem;
+     }
+
+     .social-iconn li {
+          height: 2rem;
+          width: 2rem;
+          margin-left: 0.5rem;
+     }
+
+     #skillIcon,
+     .social-icon,
+     .img-about,
+     .glow,
+     .skills-image,
+     .nav {
+          display: none;
+     }
+}
