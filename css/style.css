@@ -26,6 +26,13 @@ body {
      font-family: var(--ff-heading);
 }
 
+nav {
+     position: sticky;
+     top: 0;
+     background-color: var(--theme-accent-1);
+     z-index: 3;
+}
+
 .nav-section {
      width: 80%;
      margin: 0 auto;
@@ -65,13 +72,17 @@ body {
      font-size: var(--fz-p);
      color: var(--off-white);
      text-decoration: none;
+     transition: all 0.5s ease-in-out;
 }
 
+.list-item:hover{
+     color: var(--theme-primary);
+}
 #menu-bar {
      display: none;
 }
 #hero {
-     height: 100vh;
+     height: 600px;
      width: 80%;
      margin: 0 auto;
      background-image: url("../assets/img/file.png");
@@ -152,16 +163,20 @@ body {
      position: fixed;
      bottom: 5rem;
      right: 3rem;
-     z-index: 5;
+     z-index: 2;
 }
 
 .back-to-top {
+     text-decoration: none;
      position: fixed;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      font-size: 1.5rem;
      color: var(--off-white);
-     right: 2.5rem;
+     right: 2.3rem;
      bottom: 1rem;
-     z-index: 5;
+     z-index: 2;
      height: 3rem;
      width: 3rem;
      border: none;
@@ -246,13 +261,13 @@ body {
      width: 100%;
      background-color: var(--theme-secondary);
      margin-top: 2rem;
-     padding: 2rem 0 5rem;
+     padding: 5rem 0;
 }
 
 .about-child {
-     height: 70vh;
+     height: 400px;
      width: 80%;
-     margin: 0 auto;
+     margin: auto;
      display: flex;
      justify-content: space-evenly;
      align-items: center;
@@ -348,7 +363,6 @@ body {
 }
 
 .academics-child:hover {
-     z-index: 1;
      border: none;
      background: linear-gradient(90deg, var(--theme-primary-2), var(--theme-accent-1));
      box-shadow: 0 25.6px 57.6px 0 var(--theme-secondary), 0 4.8px 14.4px 0 var(--theme-secondary);
@@ -386,7 +400,7 @@ body {
 #skills {
      width: 80%;
      margin: auto;
-     padding: 6rem 0;
+     padding: 5rem 0;
      display: flex;
      align-items: center;
 }
@@ -583,7 +597,7 @@ body {
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     padding: 4rem 2rem;
+     padding: 3rem 2rem;
 }
 
 .service-card-grp img {
@@ -596,6 +610,7 @@ body {
      font-weight: 600;
      color: var(--off-white);
      position: relative;
+     text-align: center;
 }
 
 .service-card-grp div::after {
@@ -638,11 +653,11 @@ body {
 }
 
 .contact-me {
-     padding: 3rem 5rem;
+     padding: 3rem;
      background: var(--theme-secondary);
      display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     gap: 1.3rem;
+     grid-template-columns: 47.5% 47.5%;
+     gap: 1rem;
      border-radius: 20px 0 0 20px;
 }
 
@@ -725,7 +740,7 @@ footer {
 .footer-child {
      display: grid;
      grid-template-columns: 1fr 1fr;
-     gap: 5rem;
+     /* gap: 1rem; */
      padding-bottom: 2rem;
      border-bottom: 1px solid var(--theme-secondary);
 }
@@ -741,9 +756,11 @@ footer {
 .footer-middle {
      display: grid;
      grid-template-columns: 1fr 1fr;
+     gap: 4rem;
 }
 
 .footer-list li {
+     list-style: none;
      margin-bottom: 0.7rem;
 }
 .footer-list a {

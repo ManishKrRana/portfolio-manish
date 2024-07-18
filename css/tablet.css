@@ -1,0 +1,238 @@
+/* 
+:root {
+    --ff-logo: "Dancing Script", cursive;
+    --ff-heading: "Sora", sans-serif;
+    --ff-monospace: "Cutive Mono", monospace;
+    --white: #ffffff;
+    --off-white: #f6f3fc;
+    --black: #000000;
+    --theme-primary: #8750f7;
+    --theme-secondary: #2a1454;
+    --theme-accent-1: #0f0715;
+    --theme-accent-2: #140c1c;
+    --grey-1: #868e96;
+    --grey-3: #dddddd;
+} */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+     .nav,
+     .social-icon {
+          display: none;
+     }
+     .container {
+          position: relative;
+     }
+
+     .nav-section {
+          width: 90%;
+     }
+     #menu-bar {
+          display: block;
+     }
+     #menu-bar img {
+          width: 2.2rem;
+          height: 2.2rem;
+     }
+     #hero {
+          width: 90%;
+          height: 450px;
+          background-size: 25rem;
+          background-position: right center;
+     }
+     .hero-child {
+          width: 60%;
+     }
+     .intro {
+          font-size: 1.3rem;
+     }
+
+     .name {
+          font-size: 2.6rem;
+     }
+     .developer {
+          font-size: 1.2rem;
+     }
+     .content {
+          font-size: 1rem;
+     }
+     .btn-resume {
+          width: 160px;
+          height: 55px;
+          font-size: 1rem;
+     }
+     #skillIcon {
+          width: 90%;
+     }
+     #skillIcon ul {
+          font-size: 3rem;
+     }
+     .about-child {
+          height: 300px;
+          width: 90%;
+     }
+     .about-me div {
+          font-size: 2.6rem;
+     }
+
+     .about-me p {
+          font-size: 1rem;
+     }
+
+     .education {
+          padding-top: 5rem;
+          width: 90%;
+     }
+     .education img {
+          width: 2.6rem;
+     }
+     .education span {
+          font-size: 2.6rem;
+     }
+     .academics-details {
+          width: 90%;
+          gap: 1.3rem;
+     }
+     .academics-child {
+          padding: 1rem;
+     }
+     .education-logo img {
+          width: 4rem;
+          height: 4rem;
+     }
+     .education-details p,
+     .details-two {
+          font-size: 1rem;
+     }
+     .details-one {
+          font-size: 1.2rem;
+     }
+
+     #skills {
+          width: 90%;
+     }
+
+     .skills-image img {
+          width: 100%;
+     }
+     .skills {
+          font-size: 2.6rem;
+     }
+     .skills-para {
+          font-size: 0.8rem;
+     }
+     .skills-list ul li {
+          font-size: 2rem;
+     }
+     .skills-sub-para {
+          font-size: 0.8rem;
+     }
+     .skills-sub-para i {
+          font-size: 0.8rem;
+     }
+     .projects {
+          width: 90%;
+     }
+     .our-project {
+          font-size: 2.6rem;
+     }
+     .more-project {
+          width: 8rem;
+          padding: 0.6rem;
+          font-size: 1rem;
+     }
+     .cards {
+          width: 90%;
+          gap: 1.3rem;
+     }
+     .info {
+          padding: 1rem;
+     }
+     .info .title {
+          font-size: 1rem;
+     }
+     .info p {
+          font-size: 0.9rem;
+     }
+     .info a {
+          top: 0.5rem;
+          right: 1rem;
+     }
+     #services {
+          width: 90%;
+     }
+     .services {
+          font-size: 2.5rem;
+     }
+     .service-card {
+          padding-top: 2rem;
+          gap: 1.3rem;
+     }
+     .service-card-grp img {
+          width: 4rem;
+     }
+     .service-card-grp div {
+          font-size: 1rem;
+     }
+     #contactUs {
+          width: 90%;
+          padding: 1rem 0 5rem;
+     }
+
+     #contactUs h1 {
+          font-size: 1.7rem;
+     }
+     #contactUs p {
+          font-size: 1rem;
+     }
+     .input-txt,
+     .textarea {
+          padding: 0.8rem;
+          font-size: 0.8rem;
+     }
+     .submit-btn {
+          width: 160px;
+          height: 50px;
+          font-size: 0.8rem;
+     }
+     footer {
+          width: 90%;
+     }
+     .footer-child {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 5rem;
+          display: relative;
+     }
+
+     .footer-logo {
+          width: 100%;
+          font-size: 40px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+     }
+     .footer-list a {
+          font-size: 0.9rem;
+     }
+     .links-address p {
+          font-size: 0.8rem;
+     }
+     .links-address a {
+          font-size: 0.9rem;
+     }
+
+     .social-iconn {
+        display: block;
+   }
+
+   .social-iconn ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+   }
+
+   .social-iconn li {
+        height: 2rem;
+        width: 2rem;
+        margin-left: 0.7rem;
+   }
+}
